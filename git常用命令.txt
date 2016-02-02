@@ -1,0 +1,11 @@
+-- goct库的地址：git@git.ucweb.local:goct/goct.git
+git config --global user.name "闫烛"
+git config --global user.email "yanzhu.yz@alibaba-inc.com"
+#常用命令
+查看远程仓库： git branch -r
+克隆： git clone git@git.ucweb.local:goct/goct.git
+查看本地仓库： git branch
+切换到开发分支： git checkout dev
+先提交在推到git：  git commit -m "协同v2.8.3优化"
+                   git push origin dev
+注意（若有冲突先合并）： git pull origin dev  (同linu： i ->  输入备注 -> shit+: -> wq 回车)
